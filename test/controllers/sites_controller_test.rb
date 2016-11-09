@@ -2,7 +2,7 @@ require 'test_helper'
 
 class SitesControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @site = sites(:google)
+    @site = sites(:google) 
   end
 
   test "should get index" do
